@@ -1,0 +1,10 @@
+{
+  "repeatInterval": "24h",
+
+  "feeds": [
+    "https://www.google.com/alerts/feeds/something",
+    "https://www.talkwalker.com/alerts/rss/something"
+  ],
+
+  "saveUrls": "wherever-you-like"
+}

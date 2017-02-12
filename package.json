@@ -1,0 +1,29 @@
+{
+  "name": "alerts-dumper",
+  "version": "0.5.0",
+  "license": "MIT",
+  "description": "Fetches alerts from Talkwalker and Google and saves them to disk",
+  "dependencies": {
+    "bella-scheduler": "^1.1.5",
+    "exp-config": "^2.0.0",
+    "feedparser-promised": "^1.1.1",
+    "iterm-title": "^1.0.0",
+    "vo": "^4.0.2"
+  },
+  "devDependencies": {
+    "assert": "^1.4.1",
+    "chai": "^3.5.0",
+    "coffee-script": "^1.12.3",
+    "eslint": "^2.13.1",
+    "mocha": "^2.5.3",
+    "mocha-cakes-2": "^1.2.0",
+    "nock": "^9.0.2"
+  },
+  "repository": "odynvolk/alerts-dumper",
+  "scripts": {
+    "start": "node app.js",
+    "test": "mocha && eslint .",
+    "ci": "npm install && npm prune && npm ls && npm test",
+    "stylint": "stylint ./app/assets/stylus"
+  }
+}
